@@ -11,7 +11,7 @@ def health_check() -> dict[str, str]:
     load_model()
     return {"status": "ok"}
 
-@app.get("/predict", response_model=PredictionResponse)
+@app.post("/predict", response_model=PredictionResponse)
 def predict(payload: PredictionRequest) -> PredictionResponse:
     model = load_model()
     predicted_price = predict_price(model=model, payload=payload)

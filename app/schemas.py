@@ -13,7 +13,7 @@ class PredictionRequest(BaseModel):
         "populate_by_name": True,
         "json_schema_extra": {
             "example": {
-                "Sqft": 10000,
+                "SqFt": 10000,
                 "Bedrooms": 50,
                 "Bathrooms": 40,
                 "Offers": 5,
