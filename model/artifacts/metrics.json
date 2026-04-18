@@ -1,0 +1,14 @@
+{
+  "mse": 147092197.27036655,
+  "mae": 9128.551495679412,
+  "feats": [
+    "SqFt",
+    "Bedrooms",
+    "Bathrooms",
+    "Offers",
+    "Brick",
+    "Neighborhood"
+  ],
+  "test_size": 0.2,
+  "random_state": 42
+}
